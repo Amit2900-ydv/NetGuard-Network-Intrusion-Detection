@@ -1,0 +1,7 @@
+ALERT PORT_SCAN src=10.0.0.66 15 distinct ports on 10.0.0.20 in 10.0s
+ALERT ARP_SPOOF src=10.0.0.1 gateway 10.0.0.1 claimed by bb:bb:bb:bb:bb:66, trusted aa:aa:aa:aa:aa:01
+ALERT ARP_SPOOF src=10.0.0.1 gateway 10.0.0.1 claimed by bb:bb:bb:bb:bb:66, trusted aa:aa:aa:aa:aa:01
+ALERT PORT_SCAN src=10.0.0.66 15 distinct ports on 10.0.0.20 in 10.0s
+ALERT PORT_SCAN src=10.0.0.66 21 distinct ports on 10.0.0.20 in 10.0s
+ALERT PORT_SCAN src=10.0.0.66 21 distinct ports on 10.0.0.20 in 10.0s
+done: 6 alert(s)
